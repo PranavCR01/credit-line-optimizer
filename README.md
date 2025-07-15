@@ -15,13 +15,9 @@ This repository presents a machine learning framework for credit line management
 ```
 
 credit-line-optimizer/
-
 │
-
 ├── credit\_line\_analysis.ipynb # Full modeling notebook
-
 ├── screenshots # Visuals used in README
-
 └── README.md # This file
 
 ```
@@ -110,8 +106,9 @@ credit-line-optimizer/
 &nbsp; <img src="screenshots\ss_4.png" width="450"/>
 </div>
 
-* Accounts with more delinquencies over the past 6 months show significantly lower credit lines.
-* As delinquency counts increase, both median and spread of credit lines drop—justifying their use in risk modeling.
+- Accounts with more delinquencies in the past 6 months tend to have lower credit lines.
+- As delinquency counts increase, both the median and variability in credit lines decrease—supporting its use as a risk signal.
+
 
 ---
 
@@ -121,8 +118,9 @@ credit-line-optimizer/
 &nbsp; <img src="screenshots\ss_5.png" width="450"/>
 </div>
 
-* There's a clear positive correlation between behavioral score and assigned credit line.
-* Higher behavior scores (>700) are associated with significantly higher credit limits, supporting segmentation logic.
+- Higher behavioral scores are strongly associated with higher credit limits.
+- This correlation supports their use in segmentation and credit line adjustment models.
+
 
 ---
 
@@ -132,8 +130,9 @@ credit-line-optimizer/
 &nbsp; <img src="screenshots\ss_6.png" width="450"/>
 </div>
 
-* Spending dipped in 2023, then rose sharply from 2024 Q1 onwards—likely due to seasonality or economic recovery.
-* These trends were factored into forecasting models for Q4 2025 spending.
+- Spending dropped in 2023 but recovered steadily through 2024 and early 2025.
+- These patterns were used to improve Q4 2025 spending forecasts.
+
 
 ---
 
